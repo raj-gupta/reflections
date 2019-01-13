@@ -4,4 +4,24 @@ no commits as of now. So that we can use the directory as a Git Repository!
 
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 Ans. Files in working directory are not tracked and hence they won't feature in a commit while those in staging area will.
-Repository contains files that are committed and staging area has those that are to be committed. 
+Repository contains files that are committed and staging area has those that are to be committed.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+Ans. I can keeping add edited files from working directory to staging area after every small change and commit only once
+a logical change is done.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Ans. When we need something that is working and another stream where we are experimenting. It keeps the two things separate and accessible.
+
+5. How do the diagrams help you visualize the branch structure?
+Ans. It tells which commits can be accessed and which can't be. Also, it helps in establishing that we aren not
+accidentally changing the tip of a branch we don't want to change.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Ans. We get a single commit that has combined code from the tip of each branch. The branch in which we carry out the merge
+stays and the other one joins it. The diagram illustrates the progression towards the final tip and helps understanding
+reachability.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Ans. Automatic merging reduces the overheads while it raises conflicts on occasions where we have changes in the same location from
+different branches.
