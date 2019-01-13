@@ -1,0 +1,7 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+Ans. It create a .git sub directory and basically enables us to use that directory as a git repository with
+no commits as of now. So that we can use the directory as a Git Repository!
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ans. Files in working directory are not tracked and hence they won't feature in a commit while those in staging area will.
+Repository contains files that are committed and staging area has those that are to be committed. 
